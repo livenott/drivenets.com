@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Drivenets</title> 
+	<!-- FAVICON -->
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/a5a1bb2bfc.js" crossorigin="anonymous"></script>
+	<link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
+	<link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet">
+	<link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
+	<link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
+	<!-- ROBOTO -->
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+	<!-- COMFORTAA -->
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+	<!-- BOOTSTRAP REBOOT -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+	<!-- BOOTSTRAP -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- FANCYBOX -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+    <!-- OWL -->
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+	<!-- FANCYBOX -->
+	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header class="header mb40" id="header">
+	<div class="top top-fixed" id="top">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-xlg-3 col-lg-2 col-3">
+					<a href="#" class="logo">
+						<img src="img/logo.png">
+					</a>
+				</div>
+				<div class="menu-collapse d-none d-xl-block col-xl-8 col-lg-9 ml-auto">
+                    <nav class="menu">
+                        <ul class="menu__list d-flex">
+                            <li class="menu__item arrow_pr">
+                                <a href="#" class="menu__link">
+                                    Product
+                                </a>
+                                <i class="fa fa-chevron-down arrow_down"></i>
+                                <ul class="subject__list subject__list_pr d-none drop">
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Network OS
+                                        </a>
+                                    </li>
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Network Orchestrator
+                                        </a>
+                                    </li>
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            White Box Architecture
+                                        </a>
+                                    </li>
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Multiservices
+                                        </a>
+                                    </li>
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Migration
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Solution
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Resources
+                                </a>
+                            </li>
+                            <li class="menu__item arrow_news">
+                                <a href="#" class="menu__link">
+                                    News & Events
+                                </a>
+                                <i class="fa fa-chevron-down arrow_down"></i>
+                                <ul class="subject__list subject__list_news d-none drop">
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Media Coverage
+                                        </a>
+                                    </li>
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Press Releases
+                                        </a>
+                                    </li>
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Events
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Company
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Careers
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="menu__item menu__item_line">
+                                <a href="#" class="menu__link">
+                                    Contact
+                                </a>
+                            </li>
+                            <li class="menu__search menu__item">
+                                <i class="fas fa-search"></i>
+                                <form class="menu-search">
+                                    <input type="text" name="search" placeholder="Search" />
+                                </form>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+				<div class="col-xl-1 col-md-2 col-lg-2 col-4 ml-auto d-flex align-items-center">
+					<div class="search">
+						<i class="fa fa-search"></i>
+					</div>
+					<form class="search-forma d-none">
+						<input type="text" name="search" placeholder="Search">
+					</form>
+					<a href="#" class="btn login__btn d-none d-xl-flex">Login</a>
+					<div class="burger">
+						<img src="img/burger.png" class="burger__btn">
+						<img src="img/exit.png" class="burger__btn d-none">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<section class="offer-events">
+	<div class="offer-events-hide">
+		<img src="img/oe-offer-hide.png">
+	</div>
+	<div class="owl-carousel-events owl-carousel owl-theme" id="owl-carousel-events">
+		<div class="item-events">
+			<div class="item-events__sbj">
+				<div class="item-events__pic">
+					<img src="img/light-events.png">
+				</div>
+				<div class="item-events__descr">
+					<p class="item-events__date">
+						January 12, 2020
+					</p>
+					<p class="item-events__text">
+						Israeli founder raised $117 million from a who's who of US angel investors to take Cisco on...
+					</p>
+					<a href="#" class="item-events__link">
+						Read more
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="item-events">
+			<div class="item-events__sbj d-flex">
+				<div class="item-events__pic">
+					<img src="img/oe-emblem-forbes.png">
+				</div>
+				<div class="item-events__descr">
+					<p class="item-events__date">
+						January 12, 2020
+					</p>
+					<p class="item-events__text">
+						Israeli founder raised $117 million from a who's who of US angel investors to take Cisco on...
+					</p>
+					<a href="#" class="item-events__link">
+						Read more
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="item-events">
+			<div class="item-events__sbj">
+				<div class="item-events__pic">
+					<img src="img/light-events.png">
+				</div>
+				<div class="item-events__descr">
+					<p class="item-events__date">
+						January 12, 2020
+					</p>
+					<p class="item-events__text">
+						Israeli founder raised $117 million from a who's who of US angel investors to take Cisco on...
+					</p>
+					<a href="#" class="item-events__link">
+						Read more
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="item-events">
+			<div class="item-events__sbj d-flex">
+				<div class="item-events__pic">
+					<img src="img/oe-emblem-forbes.png">
+				</div>
+				<div class="item-events__descr">
+					<p class="item-events__date">
+						January 12, 2020
+					</p>
+					<p class="item-events__text">
+						Israeli founder raised $117 million from a who's who of US angel investors to take Cisco on...
+					</p>
+					<a href="#" class="item-events__link">
+						Read more
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="item-events">
+			<div class="item-events__sbj">
+				<div class="item-events__pic">
+					<img src="img/light-events.png">
+				</div>
+				<div class="item-events__descr">
+					<p class="item-events__date">
+						January 12, 2020
+					</p>
+					<p class="item-events__text">
+						Israeli founder raised $117 million from a who's who of US angel investors to take Cisco on...
+					</p>
+					<a href="#" class="item-events__link">
+						Read more
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="item-events">
+			<div class="item-events__sbj d-flex">
+				<div class="item-events__pic">
+					<img src="img/oe-emblem-forbes.png">
+				</div>
+				<div class="item-events__descr">
+					<p class="item-events__date">
+						January 12, 2020
+					</p>
+					<p class="item-events__text">
+						Israeli founder raised $117 million from a who's who of US angel investors to take Cisco on...
+					</p>
+					<a href="#" class="item-events__link">
+						Read more
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="item-events">
+			<div class="item-events__sbj">
+				<div class="item-events__pic">
+					<img src="img/light-events.png">
+				</div>
+				<div classs="item-events__descr">
+					<p class="item-events__date">
+						January 12, 2020
+					</p>
+					<p class="item-events__text">
+						Israeli founder raised $117 million from a who's who of US angel investors to take Cisco on...
+					</p>
+					<a href="#" class="item-events__link">
+						Read more
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="item-events">
+			<div class="item-events__sbj d-flex">
+				<div class="item-events__pic">
+					<img src="img/oe-emblem-forbes.png">
+				</div>
+				<div class="item-events__descr">
+					<p class="item-events__date">
+						January 12, 2020
+					</p>
+					<p class="item-events__text">
+						Israeli founder raised $117 million from a who's who of US angel investors to take Cisco on...
+					</p>
+					<a href="#" class="item-events__link">
+						Read more
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="coverage mb40">
+		<h3 class="coverage__title h3-events">
+			Media coverage
+		</h3>
+		<div class="container">
+			<div class="activity__list d-flex">
+				<div class="activity">
+					<img src="img/busines-insider.png" class="activity__img">
+					<div class="activity__text t-a-left">
+						<p class="activity__date">
+							January 12, 2020
+						</p>
+						<p class="activity__subtitle">
+							Executives from Microsoft, Palo Alto Networks Invested in DriveNets’ $117M.
+						</p>
+						<p class="activity__descr">
+							Influential business leaders back DriveNets’ vision of a new Telco-scale network architecture that will change the networking operational...
+						</p>
+					</div>
+					<a href="#" class="activity__link">
+						Read more
+					</a>
+				</div>
+				<div class="activity">
+					<img src="img/fiercy.png" class="activity__img">
+					<div class="activity__text t-a-left">
+						<p class="activity__date">
+							January 7, 2020
+						</p>
+						<p class="activity__subtitle">
+							DriveNets lays claim to being the first to market with OCP DDC routing model.
+						</p>
+						<p class="activity__descr">
+							DriveNets said on Friday that its Network Cloud software is the first on the market to support the distributed disaggregated chassis (DDC) model...
+						</p>
+					</div>
+					<a href="#" class="activity__link">
+						Read more
+					</a>
+				</div>
+				<div class="activity">
+					<img src="img/light-reading.png" class="activity__img">
+					<div class="activity__text t-a-left">
+						<p class="activity__date">
+							January 4, 2020
+						</p>
+						<p class="activity__subtitle ">
+							Disruptive router vendor DriveNets shifts up a gear.
+						</p>
+						<p class="activity__descr">
+							Cloud-native router startup DriveNets has followed up its February funding announcement by claiming its virtualized routing software, dubbed Network Cloud...
+						</p>
+					</div>
+					<a href="#" class="activity__link">
+						Read more
+					</a>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn orange_btn  coverage__link">
+			See all
+		</a>
+</section>
+<section class="releases-mobile">
+	<div class="releases-mobile__left">
+		<div class="releases__text">
+			<h3 class="releases__title">
+			Press releases
+			</h3>
+			<div class="events__text">
+				<p class="events__date">
+					February 12, 2020
+				</p>
+				<h2 class="events__title">
+					TIP and OCP to accelerate network disaggregation efforts with the help of DriveNets and its proven Network Cloud high-scale solution
+				</h2>
+				<a href="#" class="events__link">
+					Read more
+				</a>
+				<a href="#" class="btn orange_btn  releases__link">
+					See all
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="releases-mobile__right d-flex">
+		<div class="events__text">
+			<p class="events__date">
+				January 27, 2020
+			</p>
+			<h2 class="events__title">
+				DriveNets and KGPCo Partner to Lead Market Adoption of Disaggregated Core and Edge Networks at Tier 1 Communication Service Providers
+			</h2>
+			<a href="#" class="events__link">
+				Read more
+			</a>
+		</div>
+		<div class="events__text">
+			<p class="events__date">
+				February 12, 2020
+			</p>
+			<h2 class="events__title">
+				DriveNets Partners with Industry Leaders Broadcom, UfiSpace, Edgecore and Delta to Democratize Service Provider Networking...
+			</h2>
+			<a href="#" class="events__link">
+				Read more
+			</a>
+		</div>
+	</div>
+</section>
+<section class="releases mb40">
+	<div class="reliases-left">
+		<div class="releases__text">
+			<h3 class="releases__title">
+			Press releases
+			</h3>
+			<div class="events__text">
+				<p class="events__date">
+					February 12, 2020
+				</p>
+				<h2 class="events__title">
+					TIP and OCP to accelerate network disaggregation efforts with the help of DriveNets and its proven Network Cloud high-scale solution
+				</h2>
+				<a href="#" class="events__link">
+					Read more
+				</a>
+				<a href="#" class="btn orange_btn  releases__link">
+					See all
+				</a>
+			</div>
+		</div>
+		</div>
+		<div class="releases-right">
+			<div class="releases-right__top">
+				<div class="events__text">
+					<p class="events__date">
+						January 27, 2020
+					</p>
+					<h2 class="events__title">
+						DriveNets and KGPCo Partner to Lead Market Adoption of Disaggregated Core and Edge Networks at Tier 1 Communication Service Providers
+					</h2>
+					<a href="#" class="events__link">
+						Read more
+					</a>
+				</div>
+			</div>
+			<div class="releases-right__bottom">
+				<div class="releases-right__bottom_left">
+					<div class="events__text">
+						<p class="events__date">
+							February 12, 2020
+						</p>
+						<h2 class="events__title">
+							Expect Radical Change to Traditionally Conservative Telco Industry Over Next Three Years, Finds Heavy Reading Survey
+						</h2>
+						<a href="#" class="events__link">
+							Read more
+						</a>
+					</div>
+				</div>
+				<div class="releases-right__bottom_right">
+					<div class="events__text">
+						<p class="events__date">
+							February 12, 2020
+						</p>
+						<h2 class="events__title">
+							DriveNets Partners with Industry Leaders Broadcom, UfiSpace, Edgecore and Delta to Democratize Service Provider Networking...
+						</h2>
+						<a href="#" class="events__link">
+							Read more
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="upcoming">
+	<h3 class="upcoming__title h3-events">
+		Upcoming events
+	</h3>
+	<div class="container">
+		<div class="activity__list d-flex">
+			<div class="activity">
+				<div class="activity__text">
+					<h4 class="activity__title">
+						24-27 FEB
+					</h4>
+					<img src="img/mwc.png" class="activity__pic">
+					<p class="activity__subtitle">
+						MWC Barcelona 2020
+					</p>
+					<p class="activity__date">
+						Barcelona, Spain
+					</p>
+					<p class="activity__descr">
+						Come meet us at Mobile World Congress Barcelona, and hear about our experience with Tier 1 SPs and learn how DriveNets Network Cloud can be relevant to your... 
+					</p>
+					<a href="#" class="btn orange_btn  activity__link">
+						Meet us
+					</a>
+				</div>
+			</div>
+			<div class="activity">
+				<div class="activity__text">
+					<h4 class="activity__title">
+						24-27 FEB
+					</h4>
+					<img src="img/oop.png" class="activity__pic">
+					<p class="activity__subtitle">
+						OCP Global Summit 2020
+					</p>
+					<p class="activity__date">
+						San Jose, CA
+					</p>
+					<p class="activity__descr">
+						Join us at OCP Global Summit Barcelona, and hear about our experience with Tier 1 SPs and learn how DriveNets Network Cloud can be relevant to your... 
+					</p>
+					<a href="#" class="btn orange_btn  activity__link">
+						Meet us
+					</a>
+				</div>
+			</div>
+			<div class="activity">
+				<div class="activity__text">
+					<h4 class="activity__title">
+						24-27 FEB
+					</h4>
+					<img src="img/mpls.png" class="activity__pic">
+					<p class="activity__subtitle">
+						MPLS+SDN World Congress
+					</p>
+					<p class="activity__date">
+						Paris, France
+					</p>
+					<p class="activity__descr">
+						Join us in Paris for the MPLS+SDN+NFV World Congress where our experts will discuss how DriveNets Network Cloud can be relevant...  
+					</p>
+					<a href="#" class="btn orange_btn  activity__link">
+						Meet us
+					</a>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="upcoming__link">
+			View All  Events
+		</a>
+	</div>
+</section>
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-2 col-sm-4">
+				<div class="more">
+					<a href="#" class="more__title">
+						Products
+					</a>
+					<nav class="navigation">
+						<ul class="navigation__list">
+							<li class="navigation__item">
+								<a href="#" class="navigation__link">
+									Network OS
+								</a>
+							</li>
+							<li class="navigation__item">
+								<a href="#" class="navigation__link">
+									Orchestrator
+								</a>
+							</li>
+							<li class="navigation__item">
+								<a href="#" class="navigation__link">
+									White Box
+								</a>
+							</li>
+							<li class="navigation__item">
+								<a href="#" class="navigation__link">
+									Microservices
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="col-lg-3 col-xl-2 col-sm-4">
+				<div class="more">
+					<a href="#" class="more__title">
+						News & Events 
+					</a>
+					<nav class="navigation">
+						<ul class="navigation__list">
+							<li class="navigation__item">
+								<a href="#" class="navigation__link">
+									Media Coverage
+								</a>
+							</li>
+							<li class="navigation__item">
+								<a href="#" class="navigation__link">
+									Press Releases
+								</a>
+							</li>
+							<li class="navigation__item">
+								<a href="#" class="navigation__link">
+									Events
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="col-lg-2 col-sm-4">
+				<div class="more">
+					<a href="#" class="more__title">
+						Company
+					</a>
+					<nav class="navigation">
+						<ul class="navigation__list">
+							<li class="navigation__item">
+								<a href="#" class="navigation__link">
+									Leadership
+								</a>
+							</li>
+							<li class="navigation__item">
+								<a href="#" class="navigation__link">
+									Investors
+								</a>
+							</li>
+							<li class="navigation__item">
+								<a href="#" class="navigation__link">
+									Careers
+								</a>
+							</li>
+							<li class="navigation__item">
+								<a href="#" class="navigation__link">
+									Contact Us
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="col-lg-2 ml-auto">
+				<div class="more more_last">
+					<h6 href="#" class="more__title d-none d-lg-block">
+						ISRAEL HQ
+					</h6>
+					<p class="more__descr more__descr_width d-none d-lg-block">
+						4 HaSheizaf Street, Ra’anana, 4366411, ISRAEL
+					</p>
+					<a href="#" class="more__link">
+						info@drivenets.com 
+					</a>
+					<ul class="networks d-flex d-lg-none">
+						<li class="networks__item">
+							<a href="#" class="networks__link"><i class="fa fa-twitter"></i></a>
+						</li>
+						<li class="networks__item">
+							<a href="#" class="networks__link"><i class="fa fa-linkedin"></i></a>
+						</li>
+						<li class="networks__item">
+							<a href="#" class="networks__link"><i class="fa fa-facebook"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-2 d-none d-lg-block">
+				<div class="more more_first">
+					<h6 class="more__title">
+						US OFFICE
+					</h6>
+					<p class="more__descr">
+						125 Half Mile Road, Ste 200 Red Bank, New Jersey, 07701 U.S.A
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- JQUERY -->
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+<!-- FANCYBOX -->
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<!-- OWL -->
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<!-- SCRIPT -->
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

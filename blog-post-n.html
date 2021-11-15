@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Drivenets</title> 
+    <!-- FAVICON -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet">
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
+    <!-- ROBOTO -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- COMFORTAA -->
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP REBOOT -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- FANCYBOX -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+    <!-- OWL -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+    <!-- FANCYBOX -->
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen">
+    <!-- FORMSTYLER -->
+    <link href="css/jquery.formstyler.css" rel="stylesheet">
+    <link href="css/jquery.formstyler.theme.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header class="header mb40" id="header">
+    <div class="top top-fixed" id="top">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xlg-3 col-lg-2 col-3">
+                    <a href="#" class="logo">
+                        <img src="img/logo.png">
+                    </a>
+                </div>
+                <div class="menu-collapse d-none d-xl-block col-xl-8 col-lg-9 ml-auto">
+                    <nav class="menu">
+                        <ul class="menu__list d-flex">
+                            <li class="menu__item arrow_pr">
+                                <a href="#" class="menu__link">
+                                    Product
+                                </a>
+                                <i class="fa fa-chevron-down arrow_down"></i>
+                                <ul class="subject__list subject__list_pr d-none drop">
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Network OS
+                                        </a>
+                                    </li>
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Network Orchestrator
+                                        </a>
+                                    </li>
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            White Box Architecture
+                                        </a>
+                                    </li>
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Multiservices
+                                        </a>
+                                    </li>
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Migration
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Solution
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Resources
+                                </a>
+                            </li>
+                            <li class="menu__item arrow_news">
+                                <a href="#" class="menu__link">
+                                    News & Events
+                                </a>
+                                <i class="fa fa-chevron-down arrow_down"></i>
+                                <ul class="subject__list subject__list_news d-none drop">
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Media Coverage
+                                        </a>
+                                    </li>
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Press Releases
+                                        </a>
+                                    </li>
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Events
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Company
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Careers
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="menu__item menu__item_line">
+                                <a href="#" class="menu__link">
+                                    Contact
+                                </a>
+                            </li>
+                            <li class="menu__search menu__item">
+                                <i class="fas fa-search"></i>
+                                <form class="menu-search">
+                                    <input type="text" name="search" placeholder="Search" />
+                                </form>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-xl-1 col-md-2 col-lg-2 col-4 ml-auto d-flex align-items-center">
+                    <div class="search">
+                        <i class="fa fa-search"></i>
+                    </div>
+                    <form class="search-forma d-none">
+                        <input type="text" name="search" placeholder="Search">
+                    </form>
+                    <a href="#" class="btn login__btn d-none d-xl-flex">Login</a>
+                    <div class="burger">
+                        <img src="img/burger.png" class="burger__btn">
+                        <img src="img/exit.png" class="burger__btn d-none">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="offer-blog-post">
+    <div class="container-post">
+        <h1 class="offer-blog-post__title">
+            Takeaways from OCP Virtual Summit
+        </h1>
+        <p class="offer-blog-post__subtitle">
+            Despite its promise to lower CapEx, improve service agility and reduce vendor lock-in, Network Function Virtualization (NFV) has not lived up to its expectations. And many are beginning to openly claim that NFV’s problems may be fundamental, not just the “labor pains” its proponents claim.
+        </p>
+        <div class="offer-blog-post__img">
+            <img src="img/offer-blog-post_bg.png">
+        </div>
+    </div>
+</section>
+<section class="bp">
+    <div class="container-post d-flex">
+        <aside class="bp-aside">
+            <div class="bp-person">
+                <p class="bp-title">
+                    November 1, 2019
+                </p>
+                <div class="bp-person__item d-flex">
+                    <img src="img/bp-person.jpg">
+                    <div class="bp-person__text">
+                        <h3 class="bp-person__title">
+                            Ludovic Rubin
+                        </h3>
+                        <p class="bp-person__subtitle">
+                            Director of Product Marketing
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bp-category">
+                <p class="bp-title">
+                    Tags
+                </p>
+                <ul class="bp-category__list d-flex">
+                    <li class="bp-category__item">
+                        <a href="#" class="bp-category__link">
+                            Disaggregation
+                        </a>
+                    </li>
+                    <li class="bp-category__item">
+                        <a href="#" class="bp-category__link">
+                            NFV
+                        </a>
+                    </li>
+                    <li class="bp-category__item">
+                        <a href="#" class="bp-category__link">
+                            Cloud Edge
+                        </a>
+                    </li>
+                    <li class="bp-category__item">
+                        <a href="#" class="bp-category__link">
+                            Technology Developments
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bp-content">
+                <p class="bp-title">
+                    Related content
+                </p>
+                <ul class="bp-content__list d-flex">
+                    <li class="bp-content__item">
+                        <a href="#" class="bp-content__link">
+                            5 Things to Look at for Adopting Cloud-Native Technologies to 5G Networking...
+                        </a>
+                    </li>
+                    <li class="bp-content__item">
+                        <a href="#" class="bp-content__link">
+                            Why disaggregation is penetrating tier 1 providers...
+                        </a>
+                    </li>
+                    <li class="bp-content__item">
+                        <a href="#" class="bp-content__link">
+                            Learn about disaggregated network’s high availability from your beagle...
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bp-sub">
+                <p class="bp-title">
+                    Subscribe
+                </p>
+                <p class="bp-share-info">
+                    Subscribe to our newsletter and get the latest news and developments in networking
+                </p>
+                <form class="post-subscribe__forma">
+                    <div class="post-subscribe__input">
+                        <input type="text" name="name" placeholder="*Full name">
+                        <input type="e-mail" name="emal" placeholder="*Email">
+                    </div>
+                    <button type="submit" class="post-subscribe__btn btn orange_btn">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+            <div class="bp-share">
+                <p class="bp-title">
+                    Share this post
+                </p>
+                <ul class="bp-share__list d-flex">
+                    <li class="bp-share__item">
+                        <a href="#" class="bp-share__link">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="bp-share__item">
+                        <a href="#" class="bp-share__link">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="bp-share__item">
+                        <a href="#" class="bp-share__link">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <main class="bp-main">
+            <p class="bp-main-subtitle bp-main-subtitle_top">
+                One possible symptom of NFV’s core failings may be the numerous standards and organizations which have sprung up around it since the beginning of NFV eight years ago. Meanwhile hyperscalers have already solved it in a whole new way, making their compute and storage workloads ready for mass scale and high agility in what we call cloud computing.
+            </p>
+            <div class="bp-main-text">
+                <h3 class="bp-main-title">
+                    NFV tried to bring network function to the cloud
+                </h3>
+                <p class="bp-main-subtitle">
+                    NFV attempted to bring network functions to the cloud. Yet it did so by extracting existing network functions as-is from single-purpose appliances and placed them into virtual machines running over COTS hardware. In essence, porting networking functions as monolithic applications into virtual machines, not taking advantage of the benefits of a true cloud-native software.
+                </p>
+                <p class="bp-main-subtitle">
+                    While the current NFV model can work for single tenant customer-facing VNFs like SD-WAN and vCPE, it falls short for supporting high-scale network functions and multi-tenant environments.  It’s just like pushing a round peg into a square hole – a very challenging situation. Wherever they run – embedded in a device or in the cloud – monolith applications remain monolith and are not built for new and quick service creation, fast error recovery or automatic scaling. Scaling monolithic network VFs lacks effective resource optimization.
+                </p>
+                <p class="bp-main-subtitle">
+                    Many network services (core, aggregation and some edge services) require high throughput and low latency. Standard x86 hardware cannot support these requirements – we tried, it did not work – or demand special tweaks like hardware acceleration which is still limited in the cloud.
+                </p>
+            </div>
+            <div class="bp-main-lines">
+               <h3 class="bp-main-lines__title">
+                   To Learn More, Downlod Our White Paper:
+               </h3> 
+               <a href="#" class="bp-main-lines__subtitle">
+                   Network, Meet Cloud Scaling Disaggregated Network Infrastructure Using Cloud Principles
+               </a>
+            </div>
+            <div class="bp-main-text">
+                <h3 class="bp-main-title">
+                    CSP financial challenges are growing
+                </h3>
+                <p class="bp-main-subtitle">
+                    In his research, Roy covers the impact of COVID-19 on networks and how much more urgent the financial challenge has become for CSPs: “AvidThink and other analysts are already predicting an acceleration in 5G infrastructure build-out to keep up, along with lighting up of fiber assets in the transport and core networks to ferry the increased traffic.” But on the other hand, “overall growth in spending on telecommunications services (including streaming TV) was expected to be 0.9% in 2020.”
+                </p>
+            </div>
+            <div class="bp-main-text">
+                <h3 class="bp-main-title">
+                    Disaggregation with Cloud Architecture is the answer
+                </h3>
+                <p class="bp-main-subtitle">
+                    Roy concludes that the winning solution would have to disaggregate the control and data planes: “We can envision a telco hardware platform that’s disaggregated and open, leveraging the best of breed for both control plane and data plane functions.”
+                </p>
+                <p class="bp-main-subtitle">
+                    It would also need to be built on cloud-native software that can scale to any size, fit anywhere in the CSP network, and run multiple services in parallel: “However, if this can be done intelligently, preserving a high degree of modularity, then it is possible to create a software architecture that can scale from access to aggregation to core, performing L3 functions, or even L4-7 functions.”
+                </p>
+                <p class="bp-main-subtitle">
+                    The potential benefits of such solutions to the CSPs are: “These hybrid disaggregated architectures that can achieve horizontal scaling could mean that a single architecture could scale from lower-speed access and edge routers, all the way to aggregation routers and even to core terabit/petabit routers. The streamlined and simplified platform could reduce operational expenses on top of significant hardware savings.”
+                </p>
+            </div>
+             <div class="bp-main-lines">
+               <blockquote class="bp-main-lines__blackquote">
+                   “With a focus on tier 1 SPs as their initial customers @drivenets is IMO setting themselves up to have more sustained success in the open networking world than others that have come before.”
+               </blockquote>
+            </div>
+            <div class="bp-main-text">
+                <h3 class="bp-main-title">
+                    DriveNets redefines NFV
+                </h3>
+                <p class="bp-main-subtitle">
+                    DriveNets redefined NFV starting with network-intensive workloads. We separated the control plane – implemented as a cloud-native application – from the data plane – running on network-specific, low cost white boxes – to deliver the following:
+                </p>
+                <ul class="bp-main__list">
+                    <li class="bp-content__item">
+                        <span>Network agility</span> – cloud-native software built with containerized microservices, enabling the support of any services, on any port, at any scale over a shared virtualized infrastructure of white boxes. This model supports both network services and enables external third-party services.
+                    </li>
+                    <li class="bp-content__item">
+                        <span>Flexible scale</span> – the physical shared infrastructure of our Network Cloud model, can easily grow from 4 Tbps to hundreds of Tbps with a telco-grade quality, by simply adding more white boxes.
+                    </li>
+                    <li class="bp-content__item">
+                        <span>Easy manageability</span> – just like managing one device, white box clusters – a group of white boxes – operate as a single VNF entity and can be managed by any third-party orchestration or management system.
+                    </li>
+                    <li class="bp-content__item">
+                        <span>Low TCO</span> – the use of low cost hardware, better resource utilization, cloud-native automation and availability of fixed software license fee, all lead to both significant Capex and Opex savings.
+                    </li>
+                </ul>
+            </div>
+            <div class="bp-download d-flex">
+                <div class="bp-download__text">
+                    <p class="bp-download__title">
+                    Latest white paper
+                    </p>
+                    <p class="bp-download__subtitle">
+                       Introducing DriveNets Network Cloud from traditional chassis to software-based networking 
+                    </p>
+                </div>
+                <a href="#" class="btn orange_btn">
+                    Download
+                </a>
+            </div>
+            <div class="bp-main-text">
+                <h3 class="bp-main-title">
+                    Bring the cloud to the network
+                </h3>
+                <p class="bp-main-subtitle">
+                    We believe that NFV must adopt what hyperscalers have successfully done in the cloud, and adapt it to service provider networking. There is no other way. Containers, microservices, cloud orchestrators, network-specific low-cost white boxes are all available and are the way to go. That’s all it take. 
+                </p>
+            </div>
+        </main>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-sm-4">
+                <div class="more">
+                    <a href="#" class="more__title">
+                        Products
+                    </a>
+                    <nav class="navigation">
+                        <ul class="navigation__list">
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Network OS
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Orchestrator
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    White Box
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Microservices
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-lg-3 col-xl-2 col-sm-4">
+                <div class="more">
+                    <a href="#" class="more__title">
+                        News & Events 
+                    </a>
+                    <nav class="navigation">
+                        <ul class="navigation__list">
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Media Coverage
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Press Releases
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Events
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-4">
+                <div class="more">
+                    <a href="#" class="more__title">
+                        Company
+                    </a>
+                    <nav class="navigation">
+                        <ul class="navigation__list">
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Leadership
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Investors
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Careers
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-lg-2 ml-auto">
+                <div class="more more_last">
+                    <h6 href="#" class="more__title d-none d-lg-block">
+                        ISRAEL HQ
+                    </h6>
+                    <p class="more__descr more__descr_width d-none d-lg-block">
+                        4 HaSheizaf Street, Ra’anana, 4366411, ISRAEL
+                    </p>
+                    <a href="#" class="more__link">
+                        info@drivenets.com 
+                    </a>
+                    <ul class="networks d-flex d-lg-none">
+                        <li class="networks__item">
+                            <a href="#" class="networks__link"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="networks__item">
+                            <a href="#" class="networks__link"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li class="networks__item">
+                            <a href="#" class="networks__link"><i class="fa fa-facebook"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 d-none d-lg-block">
+                <div class="more more_first">
+                    <h6 class="more__title">
+                        US OFFICE
+                    </h6>
+                    <p class="more__descr">
+                        125 Half Mile Road, Ste 200 Red Bank, New Jersey, 07701 U.S.A
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- JQUERY -->
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+<!-- FANCYBOX -->
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<!-- OWL -->
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<!-- FORMSTYLER -->
+<script src="js/jquery.formstyler.min.js"></script>
+<!-- SCRIPT -->
+<script type="text/javascript" src="js/script.js"></script>
+</body>

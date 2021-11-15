@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Drivenets</title> 
+	<!-- FAVICON -->
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/a5a1bb2bfc.js" crossorigin="anonymous"></script>
+	<link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
+	<link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet">
+	<link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
+	<link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
+	<!-- ROBOTO -->
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+	<!-- COMFORTAA -->
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+	<!-- BOOTSTRAP REBOOT -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+	<!-- BOOTSTRAP -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- FANCYBOX -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+    <!-- OWL -->
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+	<!-- FANCYBOX -->
+	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header class="header" id="header">
+	<div class="top top-fixed" id="top">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-xlg-3 col-lg-2 col-3">
+					<a href="#" class="logo">
+						<img src="img/logo.png">
+					</a>
+				</div>
+				<div class="menu-collapse d-none d-xl-block col-xl-8 col-lg-9 ml-auto">
+                    <nav class="menu">
+                        <ul class="menu__list d-flex">
+                            <li class="menu__item arrow_pr">
+                                <a href="#" class="menu__link">
+                                    Product
+                                </a>
+                                <i class="fa fa-chevron-down arrow_down"></i>
+                                <ul class="subject__list subject__list_pr d-none drop">
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Network OS
+                                        </a>
+                                    </li>
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Network Orchestrator
+                                        </a>
+                                    </li>
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            White Box Architecture
+                                        </a>
+                                    </li>
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Multiservices
+                                        </a>
+                                    </li>
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Migration
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Solution
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Resources
+                                </a>
+                            </li>
+                            <li class="menu__item arrow_news">
+                                <a href="#" class="menu__link">
+                                    News & Events
+                                </a>
+                                <i class="fa fa-chevron-down arrow_down"></i>
+                                <ul class="subject__list subject__list_news d-none drop">
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Media Coverage
+                                        </a>
+                                    </li>
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Press Releases
+                                        </a>
+                                    </li>
+                                    <li class="subject__item">
+                                        <a href="#" class="subject__link">
+                                            Events
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Company
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Careers
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="menu__item menu__item_line">
+                                <a href="#" class="menu__link">
+                                    Contact
+                                </a>
+                            </li>
+                            <li class="menu__search menu__item">
+                                <i class="fas fa-search"></i>
+                                <form class="menu-search">
+                                    <input type="text" name="search" placeholder="Search" />
+                                </form>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+				<div class="col-xl-1 col-md-2 col-lg-2 col-4 ml-auto d-flex align-items-center">
+					<div class="search">
+						<i class="fa fa-search"></i>
+					</div>
+					<form class="search-forma d-none">
+						<input type="text" name="search" placeholder="Search">
+					</form>
+					<a href="#" class="btn login__btn d-none d-xl-flex">Login</a>
+					<div class="burger">
+						<img src="img/burger.png" class="burger__btn">
+						<img src="img/exit.png" class="burger__btn d-none">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<section class="offer-blog-lobby">
+    <div class="container">
+        <div class="bl-lob-inf">
+            <h1>
+                Drivenets
+            </h1>
+            <p>
+                <b>
+                    A Pre-Pandemic Survey on Telecom Networks is Becoming a Reality
+                </b>
+                Last year, Cisco’s VNI report predicted that IP traffic would double in the next three years. A Heavy Reading survey that followed the report...
+            </p>
+            <a href="#" class="btn orange_btn">
+                read more
+            </a>
+        </div>
+    </div>
+</section>
+<section class="blog">
+    <div class="container">
+        <div class="blog-search d-flex">
+            <p class="blog-search__title">
+                Category:
+            </p>
+            <ul class="blog-search__list d-flex">
+               <li class="blog-search__item">
+                    <a href="#" class="blog-search__link">
+                        Disaggregation
+                    </a>
+               </li> 
+               <li class="blog-search__item">
+                    <a href="#" class="blog-search__link">
+                        Industry outlook
+                    </a>  
+               </li> 
+               <li class="blog-search__item">
+                    <a href="#" class="blog-search__link">
+                        Drivenets News
+                    </a>
+               </li> 
+               <li class="blog-search__item">
+                    <a href="#" class="blog-search__link">
+                        Cloud Network
+                    </a>
+               </li> 
+               <li class="blog-search__item">
+                    <a href="#" class="blog-search__link">
+                        Technology developments
+                    </a>
+               </li> 
+            </ul>
+            <form class="blog-search__form d-flex">
+                <input type="text" name="blog-search" placeholder="Search the blog">
+                <button class="blog-search__btn">
+                    <img src="img/search_white.png">
+                </button>
+            </form>
+        </div>
+        <div class="blog-posts">
+            <div class="row">
+                <div class="col-xl-4 col-lg-6">
+                    <div class="post">
+                        <a href="#" class="post__img">
+                            <img src="img/blog-l-post1.png">
+                        </a>
+                        <div class="post__text post__text_top">
+                            <div class="post__date">
+                                <p>
+                                    Industy Outlook 
+                                </p>
+                                <p>
+                                    4 min read
+                                </p>
+                            </div>
+                            <a href="#" class="post__title">
+                                5 Things to Look at for Adopting Cloud-Native Technologies to 5G Networking
+                            </a>
+                            <p class="post__subtitle">
+                                5G is making its debut across the globe. Communication Service Providers (CSPs) are working hard to bring 5G service to their networks. Yet, the highly distributed architecture...
+                            </p>
+                            <a href="#" class="post__link">
+                               Read more 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="post">
+                        <a href="#" class="post__img">
+                            <img src="img/blog-l-post2.png">
+                        </a>
+                        <div class="post__text post__text_top">
+                            <div class="post__date">
+                                <p>
+                                    Disaggregation 
+                                </p>
+                                <p>
+                                    6 min read
+                                </p>
+                            </div>
+                            <a href="#" class="post__title">
+                                Bank of America (BofA) Calls White Box Routing a Transformative Disruption
+                            </a>
+                            <p class="post__subtitle">
+                                A month ago, Bank of America’s (BofA) Global Research team issued a Primer paper on white box routing. They concluded that it was a disruptive technology that can radically transform...
+                            </p>
+                            <a href="#" class="post__link">
+                               Read more 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="post">
+                        <a href="#" class="post__img">
+                            <img src="img/blog-l-post10.png">
+                        </a>
+                        <div class="post__text post__text_bottom">
+                            <div class="post__date">
+                                <p>
+                                    Industy Outlook 
+                                </p>
+                                <p>
+                                   4 min read
+                                </p>
+                            </div>
+                            <a href="#" class="post__title">
+                                Opening up to Network Disaggregation with DriveNets and KGPCo
+                            </a>
+                            <p class="post__subtitle">
+                                In a survey conducted by Heavy Reading this month, nearly half of CSPs predict their companies will radically change their IP Networks in the next three years…
+                            </p>
+                            <a href="#" class="post__link">
+                               Read more 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 d-xl-none d-block">
+                    <div class="post">
+                        <a href="#" class="post__img">
+                            <img src="img/blog-l-post3.png">
+                        </a>
+                        <div class="post__text post__text_bottom">
+                            <div class="post__date">
+                                <p>
+                                    Cloud Network 
+                                </p>
+                                <p>
+                                    4 min read
+                                </p>
+                            </div>
+                            <a href="#" class="post__title">
+                                What is a Disaggregated Network, and Why is it Relevant to You?
+                            </a>
+                            <p class="post__subtitle">
+                                Network and cloud service providers facing massive bandwidth demand are struggling to evolve their networks while keeping costs under control...
+                            </p>
+                            <a href="#" class="post__link">
+                               Read more 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 d-xl-none d-block">
+                    <div class="post">
+                        <a href="#" class="post__img">
+                            <img src="img/blog-l-post4.png">
+                        </a>
+                        <div class="post__text post__text_bottom">
+                            <div class="post__date">
+                                <p>
+                                    Technology Developments 
+                                </p>
+                                <p>
+                                    5 min read
+                                </p>
+                            </div>
+                            <a href="#" class="post__title">
+                                The Challenge of Developing a Fully Distributed Network Operating System
+                            </a>
+                            <p class="post__subtitle">
+                                Recently, I delivered a presentation at Networking Field Day 22,covering the DriveNets Network Operating System (DNOS), which, from the...
+                            </p>
+                            <a href="#" class="post__link">
+                               Read more 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-xl-8 d-none d-xl-block">
+                    <div class="post-row">
+                        <div class="post">
+                            <a href="#" class="post__img">
+                                <img src="img/blog-l-post3.png">
+                            </a>
+                            <div class="post__text post__text_bottom">
+                                <div class="post__date">
+                                    <p>
+                                        Cloud Network 
+                                    </p>
+                                    <p>
+                                        4 min read
+                                    </p>
+                                </div>
+                                <a href="#" class="post__title">
+                                    What is a Disaggregated Network, and Why is it Relevant to You?
+                                </a>
+                                <p class="post__subtitle">
+                                    Network and cloud service providers facing massive bandwidth demand are struggling to evolve their networks while keeping costs under control...
+                                </p>
+                                <a href="#" class="post__link">
+                                   Read more 
+                                </a>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#" class="post__img">
+                                <img src="img/blog-l-post4.png">
+                            </a>
+                            <div class="post__text post__text_bottom">
+                                <div class="post__date">
+                                    <p>
+                                        Technology Developments 
+                                    </p>
+                                    <p>
+                                        5 min read
+                                    </p>
+                                </div>
+                                <a href="#" class="post__title">
+                                    The Challenge of Developing a Fully Distributed Network Operating System
+                                </a>
+                                <p class="post__subtitle">
+                                    Recently, I delivered a presentation at Networking Field Day 22,covering the DriveNets Network Operating System (DNOS), which, from the...
+                                </p>
+                                <a href="#" class="post__link">
+                                   Read more 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-12 ">
+                    <div class="post-subscribe">
+                        <form class="post-subscribe__forma">
+                            <a href="#" class="post-subscribe__title">
+                                Subscribe<br>to our newsletter
+                            </a>
+                            <p class="post-subscribe__subtitle">
+                                Sign up to get the latest news and insights.
+                            </p>
+                            <div class="post-subscribe__input">
+                                <input type="text" name="name" placeholder="*Full name">
+                                <input type="e-mail" name="emal" placeholder="*Email">
+                            </div>
+                            <button type="submit" class="post-subscribe__btn btn orange_btn">
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="post">
+                        <a href="#" class="post__img">
+                            <img src="img/blog-l-post6.png">
+                        </a>
+                        <div class="post__text post__text_bottom">
+                            <div class="post__date">
+                                <p>
+                                    Industy Outlook 
+                                </p>
+                                <p>
+                                   5 min read
+                                </p>
+                            </div>
+                            <a href="#" class="post__title">
+                                Why Network Disaggregation is Getting Adopted by Tier 1 Service Providers
+                            </a>
+                            <p class="post__subtitle">
+                                Network disaggregation presents a unique opportunity for network operators to benefit from the same advantages offered by the cloud...
+                            </p>
+                            <a href="#" class="post__link">
+                               Read more 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="post">
+                        <a href="#" class="post__img">
+                            <img src="img/blog-l-post7.png">
+                        </a>
+                        <div class="post__text post__text_bottom">
+                            <div class="post__date">
+                                <p>
+                                    Industy Outlook 
+                                </p>
+                                <p>
+                                   5 min read
+                                </p>
+                            </div>
+                            <a href="#" class="post__title">
+                                Learn about disaggregated network’s high availability from your beagle
+                            </a>
+                            <p class="post__subtitle">
+                                If you’ve ever owned a beagle, you know how difficult it is to keep it healthy and alive 24/7. Beagles are typically intelligent, curious, stubborn creatures...
+                            </p>
+                            <a href="#" class="post__link">
+                               Read more 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="post">
+                        <a href="#" class="post__img">
+                            <img src="img/blog-l-post5.png">
+                        </a>
+                        <div class="post__text post__text_bottom">
+                            <div class="post__date">
+                                <p>
+                                    Industy Outlook 
+                                </p>
+                                <p>
+                                   4 min read
+                                </p>
+                            </div>
+                            <a href="#" class="post__title">
+                                Opening up to Network Disaggregation with DriveNets and KGPCo
+                            </a>
+                            <p class="post__subtitle">
+                                In a survey conducted by Heavy Reading this month, nearly half of CSPs predict their companies will radically change their IP Networks in the next three years…
+                            </p>
+                            <a href="#" class="post__link">
+                               Read more 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="post">
+                        <a href="#" class="post__img">
+                            <img src="img/blog-l-post1.png">
+                        </a>
+                        <div class="post__text post__text_top">
+                            <div class="post__date">
+                                <p>
+                                    Industy Outlook 
+                                </p>
+                                <p>
+                                    4 min read
+                                </p>
+                            </div>
+                            <a href="#" class="post__title">
+                                5 Things to Look at for Adopting Cloud-Native Technologies to 5G Networking
+                            </a>
+                            <p class="post__subtitle">
+                                5G is making its debut across the globe. Communication Service Providers (CSPs) are working hard to bring 5G service to their networks. Yet, the highly distributed architecture...
+                            </p>
+                            <a href="#" class="post__link">
+                               Read more 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="post">
+                        <a href="#" class="post__img">
+                            <img src="img/blog-l-post2.png">
+                        </a>
+                        <div class="post__text post__text_top">
+                            <div class="post__date">
+                                <p>
+                                    Disaggregation 
+                                </p>
+                                <p>
+                                    6 min read
+                                </p>
+                            </div>
+                            <a href="#" class="post__title">
+                                Bank of America (BofA) Calls White Box Routing a Transformative Disruption
+                            </a>
+                            <p class="post__subtitle">
+                                A month ago, Bank of America’s (BofA) Global Research team issued a Primer paper on white box routing. They concluded that it was a disruptive technology that can radically transform...
+                            </p>
+                            <a href="#" class="post__link">
+                               Read more 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="post">
+                        <a href="#" class="post__img">
+                            <img src="img/blog-l-post10.png">
+                        </a>
+                        <div class="post__text post__text_bottom">
+                            <div class="post__date">
+                                <p>
+                                    Industy Outlook 
+                                </p>
+                                <p>
+                                   4 min read
+                                </p>
+                            </div>
+                            <a href="#" class="post__title">
+                                Opening up to Network Disaggregation with DriveNets and KGPCo
+                            </a>
+                            <p class="post__subtitle">
+                                In a survey conducted by Heavy Reading this month, nearly half of CSPs predict their companies will radically change their IP Networks in the next three years…
+                            </p>
+                            <a href="#" class="post__link">
+                               Read more 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog-posts_numbers d-flex">
+            <a href="#" class="blog-posts_arrow">
+                <i class="fa fa-chevron-left "></i>
+            </a>
+            <ul class="blog-posts_numbers__list d-flex">
+                <li class="blog-posts_numbers__item">
+                    <a href="#" class="blog-posts_numbers__link blog-posts_numbers__active">
+                        1
+                    </a>
+                </li>
+                 <li class="blog-posts_numbers__item">
+                    <a href="#" class="blog-posts_numbers__link">
+                        2
+                    </a>
+                </li>
+                 <li class="blog-posts_numbers__item">
+                    <a href="#" class="blog-posts_numbers__link">
+                        3
+                    </a>
+                </li>
+                 <li class="blog-posts_numbers__item">
+                    <a href="#" class="blog-posts_numbers__link">
+                        4
+                    </a>
+                </li>
+                 <li class="blog-posts_numbers__item">
+                    <a href="#" class="blog-posts_numbers__link">
+                        5
+                    </a>
+                </li>
+            </ul>
+            <a href="#" class="blog-posts_arrow">
+                <i class="fa fa-chevron-right blog-posts_arrow"></i>
+            </a>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container p-0">
+        <div class="row">
+            <div class="col-lg-2 col-sm-4">
+                <div class="more">
+                    <a href="#" class="more__title">
+                        Products
+                    </a>
+                    <nav class="navigation">
+                        <ul class="navigation__list">
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Network OS
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Orchestrator
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    White Box
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Microservices
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-lg-3 col-xl-2 col-sm-4">
+                <div class="more">
+                    <a href="#" class="more__title">
+                        News & Events 
+                    </a>
+                    <nav class="navigation">
+                        <ul class="navigation__list">
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Media Coverage
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Press Releases
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Events
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-4">
+                <div class="more">
+                    <a href="#" class="more__title">
+                        Company
+                    </a>
+                    <nav class="navigation">
+                        <ul class="navigation__list">
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Leadership
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Investors
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Careers
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-lg-2 ml-auto">
+                <div class="more more_last">
+                    <h6 href="#" class="more__title d-none d-lg-block">
+                        ISRAEL HQ
+                    </h6>
+                    <p class="more__descr more__descr_width d-none d-lg-block">
+                        4 HaSheizaf Street, Ra’anana, 4366411, ISRAEL
+                    </p>
+                    <a href="#" class="more__link">
+                        info@drivenets.com 
+                    </a>
+                    <ul class="networks d-flex d-lg-none">
+                        <li class="networks__item">
+                            <a href="#" class="networks__link"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="networks__item">
+                            <a href="#" class="networks__link"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li class="networks__item">
+                            <a href="#" class="networks__link"><i class="fa fa-facebook"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 d-none d-lg-block">
+                <div class="more more_first">
+                    <h6 class="more__title">
+                        US OFFICE
+                    </h6>
+                    <p class="more__descr">
+                        125 Half Mile Road, Ste 200 Red Bank, New Jersey, 07701 U.S.A
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- JQUERY -->
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+<!-- FANCYBOX -->
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<!-- OWL -->
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<!-- SCRIPT -->
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
